@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "399372226085",
+    "firebase_url": "https://githubapp-8fbed.firebaseio.com",
+    "project_id": "githubapp-8fbed",
+    "storage_bucket": "githubapp-8fbed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399372226085:android:ed8400bbca59f9e48879cc",
+        "android_client_info": {
+          "package_name": "com.example.githubapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399372226085-15ermi989jkpqhqlrshe9k37e0ajcu9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_wu57uT2YhjQLph7QWwqSCvhOgXKX3Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399372226085-15ermi989jkpqhqlrshe9k37e0ajcu9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
