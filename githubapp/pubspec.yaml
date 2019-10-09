@@ -30,6 +30,7 @@ dev_dependencies:
   shared_preferences:
   http:
   webview_flutter:
+  simple_auth_flutter: ^2.0.4
     
 
 
