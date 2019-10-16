@@ -12,11 +12,11 @@ class _SplashState extends State<Splash> {
 
  Future <void> check() async {
 var prefs= await SharedPreferences.getInstance();
-var cookie=prefs.getString('cookie');
-if(cookie != null){
+var token=prefs.getString('token');
+if(token != null){
   setState(() {
     
-    Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => HomePage()));
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => HomePage(token)));
   });
 }
 else{

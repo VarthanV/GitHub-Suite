@@ -29,13 +29,8 @@ dev_dependencies:
     sdk: flutter
   shared_preferences:
   http:
-  webview_flutter:
-
-
-  firebase_auth: ^0.8.2
-  google_sign_in: ^4.0.1+1
-  url_launcher: ^5.0.2
-  uni_links: ^0.2.0
+  url_launcher:
+  
   
     
 
