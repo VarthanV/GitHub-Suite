@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
+import 'issueDetail.dart';
 
 class HomePage extends StatefulWidget {
   final token;
@@ -32,6 +33,14 @@ class _HomePageState extends State<HomePage> {
                       margin: EdgeInsets.only(top: 10.0, bottom: 10.0),
                       child: ListTile(
                         title: Text(item['name']),
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (ctx) => IssueDetailPage(
+                                      repos[0]['owner']['login'],
+                                      item['name'])));
+                        },
                         subtitle: Text(item['description'] != null
                             ? item['description']
                             : 'No Description Provided'),
